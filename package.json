@@ -1,0 +1,19 @@
+{
+  "name": "grs-upt-rezervari",
+  "version": "1.0.0",
+  "description": "Automatizare rezervari teren sportiv UPT",
+  "type": "module",
+  "scripts": {
+    "login": "node scripts/login-once.js",
+    "dry-run": "node scripts/dry-run.js",
+    "book": "node scripts/book.js",
+    "book:now": "node scripts/book.js --now",
+    "postinstall": "playwright install firefox"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}

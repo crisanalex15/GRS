@@ -1,0 +1,20 @@
+{
+  "baseUrl": "https://rezervari.upt.ro",
+
+  "courtLinkText": "Teren Handbal",
+  "sportSpacePath": "/sport/space/2",
+
+  "timeSlots": ["20:30 - 22:00", "22:00 - 23:30"],
+  "dayPriority": ["Marți", "Luni", "Miercuri"],
+  "studentNameHint": "CRISAN",
+  "sundayWindow": {
+    "start": "09:45",
+    "end": "11:15"
+  },
+  "pollFastMs": 2000,
+  "pollSlowMs": 45000,
+  "onFacultyLimit": "stop",
+  "facultyLimitSlowPollMs": 300000,
+  "profileDir": "firefox-profile",
+  "headless": false
+}
