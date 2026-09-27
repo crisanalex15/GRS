@@ -1,15 +1,20 @@
 {
   "baseUrl": "https://rezervari.upt.ro",
-
-  "courtLinkText": "Teren Handbal",
-  "sportSpacePath": "/sport/space/2",
-
-  "timeSlots": ["20:30 - 22:00", "22:00 - 23:30"],
-  "dayPriority": ["Marți", "Luni", "Miercuri"],
-  "studentNameHint": "CRISAN",
+  "courtLinkText": "Teren Minifotbal",
+  "sportSpacePath": "/sport/space/1",
+  "timeSlots": [
+    "20:30 - 22:00",
+    "22:00 - 23:30"
+  ],
+  "dayPriority": [
+    "Marți",
+    "Miercuri",
+    "Luni"
+  ],
+  "studentNameHint": "CORNEA",
   "sundayWindow": {
     "start": "09:45",
-    "end": "11:15"
+    "end": "12:10"
   },
   "pollFastMs": 2000,
   "pollSlowMs": 45000,

@@ -52,8 +52,9 @@ try {
     const result = await bookFirstAvailable(page, config);
 
     if (result.ok) {
+      const now = new Date().toLocaleString("ro-RO", { timeZone: "Europe/Bucharest" });
       console.log(
-        `\n[SUCCES] Rezervat: ${result.day} ${result.slot} (via ${result.via})`,
+        `\n[SUCCES] Rezervat: ${result.day} ${result.slot} (via ${result.via}) — la ${now}`,
       );
       booked = true;
       break;
